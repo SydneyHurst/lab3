@@ -1,4 +1,123 @@
+/* Google font import for headers */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+/*Clear all default styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*The header, logo, its text, and the nav elements*/
+.header {
+    width: 100%;
+    background-color: #221f27;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 15px;
+}
+
+/*Using both invert filters in case of different browsers*/
+.logo {
+    height: 70px;
+    width: auto;
+    padding-left: 20px;
+    -webkit-filter: invert(100%);  /*Turn the color white with invert filter*/
+    filter: invert(100%);
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+    font-family: "Eagle Lake", serif;
+    font-size: 38px;
+    
+}
+
+.navigation {
+    background-color: #342d3a;
+    padding: 10px;
+}
+
+.navigation li {
+    display: inline;
+    padding: 10px 35px;
+  }
+
+.navigation a {
+   font-size: 18px;
+   color: white;
+   text-decoration: none;
+  }
+
+  /*Hover effect*/
+.navigation li:hover {
+    background-color: rgb(100, 86, 107);
+    transition: 0.3s;
+}
+
+/*Content + the text and image columns*/
+.content{
+    background-color: #4b4553;
+    padding: 25px;
+    display: flex;  /* Enables flexbox layout */
+    align-items: stretch;
+}
+
+.content-column{
+    width: 55%;
+    margin-right: 45px;
+    margin-left: 20px;
+    padding: 20px 40px;
+    height: flex;
+    background-color: #342d3a;
+    text-align: center;
+}
+
+.content-images{
+    display: inline-block;
+    width: 39%;
+    padding: 40px;
+    background-color: #342d3a;
+    text-align: center;
+}
+
+/*image class to control the images in the body*/
+.favs {
+    height: 40%;
+    width: auto;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 32px;
+    font-family: "Eagle Lake", serif;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    font-style: oblique;
+}
+
+/*Footer and its links*/
+.footer{
+    width:100%;
+    background-color:#221f27;
+    padding: 20px;
+    color:#726b7a;
+    line-height: 25px;
+}
+
+.footer a{
+    color: #8163b3;
 }
