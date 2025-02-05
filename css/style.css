@@ -65,7 +65,7 @@ h1{
 .content{
     background-color: #4b4553;
     padding: 25px;
-    display: flex;  /* Enables flexbox layout */
+    display: flex;
     align-items: stretch;
 }
 
